@@ -10,13 +10,13 @@
   --light-color: #F5F4FA;
   --white-color: #ffffff;
 
-  --main-font: font-family: 'Roboto', sans-serif;
-  --secondary-font: font-family: 'Raleway', sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.3em;
   background-color: var(--white-background-color);
   color: var(--primary-text-color)
 }
@@ -154,8 +154,9 @@ body {
 
 .button-list-item {
   color: var(--dark-color);
-  font-weight: var(--primary-color);
+  font-weight: var(--font-weight-bold);
   padding: 10px 41px;
+  margin: 8px;
   border: 0;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -189,4 +190,9 @@ body {
 
 .footer-adress {
   font-size: 14px;
+}
+
+.portfolio-list-item {
+  padding: 10px;
+  margin: 10px;
 }
