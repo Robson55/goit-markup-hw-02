@@ -1,5 +1,6 @@
 :root {
-   --font-weight-bold: 600;
+  --font-weight-normal: 400;
+  --font-weight-bold: 600;
   --font-weight-extra-bold: 700;
 
   --primary-color: #212121;
@@ -8,6 +9,7 @@
   --dark-color: #2f303a;
   --light-color: #f5f4fa;
   --white-color: #ffffff;
+  --font-style: normal;
 
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
@@ -21,15 +23,15 @@ body {
 }
 
 .header-nav,
-.adress,
+.address,
 .button-list,
 .portfolio-list {
   list-style: none;
 }
 
 .header-nav-list,
-.adress-mail,
-.adress-tel,
+.address-mail,
+.address-tel,
 .portfolio-list {
   text-decoration: none;
 }
@@ -48,11 +50,12 @@ body {
   color: var(--accent-color);
 }
 
-.adress-mail,
-.adress-tel {
+.address-mail,
+.address-tel {
   color: var(--second-color);
   font-size: 14px;
   font-weight: 500;
+  font-style: var(--font-style);
 }
 
 .header-nav-list {
@@ -168,10 +171,10 @@ body {
 
 .header-nav-list:hover,
 .header-nav-list:active,
-.adress-mail:hover,
-.adress-mail:active,
-.adress-tel:hover,
-.adress-tel:active {
+.address-mail:hover,
+.address-mail:active,
+.address-tel:hover,
+.address-tel:active {
   color: var(--accent-color);
 }
 
