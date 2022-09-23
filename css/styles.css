@@ -130,6 +130,10 @@ body {
   justify-content: center;
 }
 
+.team-class{
+  background-color: var(--light-color);
+}
+
 .team-list {
   list-style: none;
   display: flex;
@@ -194,4 +198,8 @@ body {
 .portfolio-list-item {
   padding: 10px;
   margin: 10px;
+}
+
+.footer { 
+  background-color: var(--dark-color);
 }
